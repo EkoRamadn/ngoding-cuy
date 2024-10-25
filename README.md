@@ -1,65 +1,77 @@
-# ekstensi-saya README
+# Ngoding Cuy README
 
-This is the README for your extension "ekstensi-saya". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "Ngoding Cuy". This extension aims to simplify the initialization of Webpack projects. Below, you'll find the key details and features of the extension.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Quick Webpack Project Setup:**  
+  Easily initialize a new Webpack project with just a command.
+- **Pre-configured Webpack Files:**  
+  Automatically generates `webpack.config.js`, entry points, and `package.json`.
+- **Streamlined Dependencies Installation:**  
+  Installs essential dependencies like `webpack`, `webpack-cli`, and `webpack-dev-server`.
 
-For example if there is an image subfolder under your extension project workspace:
+### Screenshot Example
 
-\!\[feature X\]\(images/feature-x.png\)
+Here’s how it looks when running the command to initialize a Webpack project:
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+![Ngoding Cuy in Action](images/ngoding-cuy-demo.png)
+
+> Tip: A quick GIF of this process will make it even more compelling!
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+This extension assumes that you have:
+
+- **Node.js** installed on your system.  
+  You can download it from [Node.js Official Website](https://nodejs.org/).
+- **npm** (comes bundled with Node.js) or **yarn** package manager.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
 This extension contributes the following settings:
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+- `ngodingCuy.enable`: Enable or disable the Ngoding Cuy extension.
+- `ngodingCuy.defaultProjectName`: Set the default name for new Webpack projects.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- **Compatibility Issue:** The extension might not work properly with older versions of VS Code (below `1.80.0`).
+- **Limited Templates:** Currently only supports basic Webpack configurations. Additional templates (e.g., React, Vue) are planned for future releases.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+### 0.0.1 - Alpha
 
-### 1.0.0
+- **Release Date:** 25 October 2024
+- Initial release of Ngoding Cuy!
+- Features:
+  - Command to initialize Webpack projects.
+  - Auto-generation of `webpack.config.js` and `package.json`.
+  - Basic npm dependency installation.
 
-Initial release of ...
+### 0.0.2 - Alpha
 
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+- **Release Date:** 25 October 2024
+- Initial release of Ngoding Cuy!
+- New Features:
+  - custom project name
 
 ---
 
 ## Working with Markdown
 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+Use VS Code to author and edit this README. Here are some helpful shortcuts:
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
+- **Split Editor:** `Ctrl+\` (Windows/Linux) or `Cmd+\` (macOS)
+- **Toggle Preview:** `Shift+Ctrl+V` (Windows/Linux) or `Shift+Cmd+V` (macOS)
+- **Trigger Suggestions:** `Ctrl+Space` (all platforms)
 
 ## For more information
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
+- [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
+---
+
+**Enjoy coding with Ngoding Cuy! 🚀**
